@@ -1,5 +1,5 @@
-# Redis And System Logs
+# System Logs
 ```
-docker build -t sys-log-and-redis .
-docker run -it --rm -p 6379 sys-log-and-redis
+docker build -t sys-logs .
+docker run -it --rm sys-logs
 ```
