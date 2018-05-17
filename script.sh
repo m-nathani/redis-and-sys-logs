@@ -5,7 +5,7 @@
 while sleep ${sleepTime};
  do date;
  echo "********** Network *********";
- sar -n DEV 1 1;
+ tail /var/log/netstats
  echo "********** Memory  *********";
  free -m;
  echo "********** CUP %   *********" ;
